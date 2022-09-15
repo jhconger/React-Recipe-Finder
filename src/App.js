@@ -1,7 +1,9 @@
 import styled from 'styled-components'
+import  {AppIcon} from './components/navbar'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Container, Nav, Form, FormControl, Button} from 'react-bootstrap';
+import RecipeBox from './RecipeBox';
 
 //
 // const Container = styled.div`
@@ -21,13 +23,7 @@ import {Navbar, Container, Nav, Form, FormControl, Button} from 'react-bootstrap
 // box-shadow: 0 3px 6px 0 #555
 // `;
 //
-const AppIcon = styled.img`
-display: flex;
-flex-direction: row;
-align-items: center;
-height: 75px;
-width: 75px;
-`;
+
 //
 // const AppNameComponent = styled.div`
 // display: flex;
@@ -95,6 +91,11 @@ function App() {
 
                 </Container>
             </Navbar>
+            <div className= "container">
+                <div className="grid">
+                        <RecipeBox/>
+                </div>
+            </div>
         </>
     );
 }
