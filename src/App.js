@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components'
+
+
+const Container = styled.div`
+ display: flex;
+ flex-direction: column;
+ `;
+
+const Header = styled.div`
+color:white;
+background-color: black;
+display: flex;
+flex-direction: row;
+padding: 20px;
+font-size: 25px;
+font-weight: bold;
+box-shadow: 0 3px 6px 0 #555
+`;
+
+const AppNameComponent = styled.div`
+
+`;
+
+const SearchComponent = styled.div`
+
+`;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Container>
+      <Header>
+          <AppNameComponent><img src="toppng.com-sandwich-577x447.png"/>Recipe Finder</AppNameComponent>
+          <SearchComponent>
+              <img src="search.png"/>
+          </SearchComponent>
+      </Header>
+          Justin Conger</Container>
 }
 
 export default App;
