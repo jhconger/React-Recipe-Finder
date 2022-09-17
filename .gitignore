@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+Edamam API Key = 07015b8fb7809a5ee4afdbe546b5d4b7
 
+Edamam ID = 2d320d45
 # dependencies
 /node_modules
 /.pnp

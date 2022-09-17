@@ -7,16 +7,16 @@ body{
     text-decoration: none;
     list-style-type: none;
     outline: none;
-    background-color: black;
+    background-color: #040404;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container{
     width: 100%;
-    margin: 1em auto;
-    padding: 5px;
-    background-color: #030303;
+    margin: 0;
+    padding: 15px;
+    background-color: #000000;
 }
 
 .grid{

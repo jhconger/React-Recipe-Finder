@@ -71,7 +71,7 @@ function App() {
 
     return (
         <>
-            <Navbar bg="dark" expand="lg" variant="dark">
+            <Navbar bg="black" expand="lg" variant="dark">
                 <Container fluid>
                     <AppIcon src='RecipeLogo.svg'/>
                     <Navbar.Brand href="/home">Recipes for the Ages</Navbar.Brand>
